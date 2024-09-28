@@ -7,6 +7,9 @@ public class conditionif {
         pswd=obj.nextInt();
         if (pswd==4444){
             System.out.println("Welcome to your account");
+            System.out.println("My name - RAvi kahshyap");
+            System.out.println("My age - 21");
+            System.out.println("Email - ravi.kashyap181855@gmail.com");
         }
         else{
             System.out.println("Incorrect password");

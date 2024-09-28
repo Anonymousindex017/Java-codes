@@ -10,6 +10,7 @@ public class conditionif {
             System.out.println("My name - RAvi kahshyap");
             System.out.println("My age - 21");
             System.out.println("Email - ravi.kashyap181855@gmail.com");
+           System.out.println("Address -Transport Nagar Lucknow"); 
         }
         else{
             System.out.println("Incorrect password");

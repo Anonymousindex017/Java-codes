@@ -5,7 +5,7 @@ public class createtable {
         System.out.println("Enter the number to print the table");
         int num =s.nextInt();
 
-        for(int i=1;i<=10;i++)
+        for(int i=1;i<=10;++i)
         {
             System.out.println(num*i);
         }

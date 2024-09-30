@@ -36,7 +36,6 @@ public class simplecalculater {
                 System.out.println("Invalid option"); 
                 break;
             }
-                
         }
 
     }

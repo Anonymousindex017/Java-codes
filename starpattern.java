@@ -1,14 +1,14 @@
-public class starpattern {
-    public static void main(String[] args) {
+public class starpattern { //class name
+    public static void main(String[] args) { //main method
         
-        int i,j,n=10;
-        for(i=0;i<n;i++)
+        int i,j,n=10; //declaring variables and initializing n=10 
+        for(i=0;i<n;i++) //loop for printing the pattern
         {
-            for(j=0; j<n-i-1;j++);
+            for(j=0; j<n-i-1;j++); // loop for printing 
             {
-                System.out.print("0 ");
+                System.out.print(" 0 "); //printing the pattern
             }
-        System.out.println(n-i);
+        System.out.println(n-i); //printing the pattern
         }
     }
 }

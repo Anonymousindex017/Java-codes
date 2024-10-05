@@ -1,4 +1,5 @@
-class A{
+class A
+{
     
     int a; String b; boolean c;
         A()
@@ -9,7 +10,7 @@ class A{
         {
             System.out.println(a +" " +b +" " +c);
         }
-    }
+ }
     
     class B
     {

@@ -1,15 +1,21 @@
-import java.util.Scanner;
-
-public class A {
+class A{
     
-    public static void main(String[] args) {
-        int a, b, c;
-        System.out.println("Enter two numbers");
-        Scanner s = new Scanner(System.in);
-        a = s.nextInt();
-        b = s.nextInt();
-        c = a + b;
-        System.out.println("sum of two numbers is " + c);
-
+    int a; String b; boolean c;
+        A()
+        {
+            a=100; b="ravi"; c=false;
+        }
+        void disp()
+        {
+            System.out.println(a +" " +b +" " +c);
+        }
     }
-}
+    
+    class B
+    {
+        public static void main(String[] args) {
+            A r=new A();
+            r.disp();
+        }
+    }
+    

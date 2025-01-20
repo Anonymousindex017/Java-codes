@@ -7,4 +7,4 @@ class A3
     a=10; b=("Our Coding");
     System.out.println(a+" "+b);
   }   
-}
+} 

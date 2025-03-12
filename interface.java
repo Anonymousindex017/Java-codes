@@ -7,6 +7,9 @@ interface vehical {
     default void display(){
         System.out.println("vehical colour");
     }
+    static void speed(){
+        System.out.println("speed of the vehical"+speed);
+    }
 }
 
 class customer implements vehical{
@@ -23,5 +26,6 @@ class customer implements vehical{
         c.start();
         c.stop();
         System.out.println(speed);
+     vehical.speed();
     }
 }
